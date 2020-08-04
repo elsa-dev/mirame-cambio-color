@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+.bodi {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    h1 {
+        font-size: 32px;
+    }
+    .bodi {
+        background-color: rgb(243, 22, 243);
+    }
+
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    .bodi {background-color: rgb(243, 157, 243);
+    }
+}
